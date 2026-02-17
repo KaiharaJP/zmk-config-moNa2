@@ -1,4 +1,6 @@
+
 #include "moNa2.dtsi"
+#include "rgbled_xiao.overlay"
 
 &default_transform {
     col-offset = <6>;
