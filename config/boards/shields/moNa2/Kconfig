@@ -1,0 +1,8 @@
+if SHIELD_MoNa2_R || SHIELD_MoNa2_L
+
+config ZMK_RGBLED_WIDGET_COMPAT
+    bool "Enable RGBLED widget endpoint compatibility shims"
+    default y
+
+endif
+
